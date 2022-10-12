@@ -64,7 +64,7 @@ main{
     background-color: white;
     padding: 15px;
     margin-top: 15px;
-    border-radius: 10px;
+    
     overflow: auto; /* Para poder englobar o float right dos cards*/
 }
 
@@ -79,6 +79,7 @@ main{
 .card{/*Define tamanho do card para poder caebr na horizontal, (também pode ser usado o inline-block porém vai ter consequencias*/
     width: 32%;
     float: left;
+    box-sizing: border-box;
     
 }
 .card-1, .card-2{
@@ -87,7 +88,7 @@ main{
 .card img{
     width: 100%;
     display: block;
-    border-radius: 10px;
+    
 }
 .card p{
     text-transform: uppercase;
